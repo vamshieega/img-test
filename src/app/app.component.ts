@@ -11,7 +11,7 @@ export class AppComponent {
 
   async downloadImage(imageSrc: any, nameOfDownload: string) {
     console.log(imageSrc);
-    console.log("len : ", imageSrc.length);
+    console.log("len tesd: ", imageSrc.length);
     console.log(typeof (imageSrc));
 
     const response = await fetch(imageSrc);
